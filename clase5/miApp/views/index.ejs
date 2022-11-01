@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    <% nombres.forEach(element => { %>
+     <p><%= element %> </p>
+    <% }) %>
+    <% mascotas.forEach(m => { %>
+      <div class="card">
+        <p>Mi nombre es: <%= m.nombre %> </p>
+        <p>Tengo <%= m.edad %> años </p>
+        <p>Y mi dueño/a es: <%= m.duenio %> </p>
+      </div>
+     <% }) %>
+  </body>
+</html>

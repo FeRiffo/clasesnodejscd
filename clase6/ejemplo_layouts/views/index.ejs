@@ -1,0 +1,52 @@
+<div class="container">
+  <div class="row">
+    <div class="col-4 bg-info">
+      <h1><%= title %></h1>
+    </div>
+    <div class="col-8 bg-info bg-opacity-50">
+      
+    </div>
+    <% if (locals.user!=undefined) { %>
+      <p>Bienvenid@ <%= locals.user.nombre %>  a <%= title %></p>
+     
+    <% }else{ %>
+      <p>Necesitas loguearte</p>
+    <%}%>
+  </div>
+  <div class="row">
+    <div class="col-4 bg-info bg-opacity-25">
+      <h1><%= title %></h1>
+    </div>
+    <div class="col-8 bg-info bg-opacity-75">
+      <p>Welcome to <%= title %></p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-7 alert alert-primary">
+      <h2>alert</h2>
+    </div>
+    <div class="col-5 alert alert-info">
+      <h2>alert</h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-7 alert alert-secondary">
+      <h2>alert</h2>
+    </div>
+    <div class="col-5 alert alert-warning">
+      <h2>alert</h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-7 alert alert-success">
+      <h2>alert</h2>
+    </div>
+    <div class="col-5 alert alert-danger">
+      <h2>alert</h2>
+    </div>
+  </div>
+</div>    
+    
+   
+    
+

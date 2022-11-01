@@ -1,0 +1,24 @@
+<%- include('./partials/head.ejs') %> 
+<body class="bg-info bg-opacity-25">
+    <%- include('./partials/nav.ejs') %> 
+    <h1><%= title %> </h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-6"></div>
+            <div class="col-6">
+                <%if(productos.length!==0) { %>
+     
+                    <% for( let i = 0; i < productos.length; i++ ) { %>
+                        <h3><%= productos[i].nombre %></h3>
+                        <p>Precio: $ <%= productos[i].precio %></p> 
+                    <% } %>
+                    <%} else{%>
+                        <p>No hay datos</p>
+                        <% } %> 
+            </div>
+        </div>
+    </div>
+    
+    
+</body>
+</html>

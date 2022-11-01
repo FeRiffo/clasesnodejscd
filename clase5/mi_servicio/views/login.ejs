@@ -1,0 +1,28 @@
+<%- include('./partials/head.ejs')  %>
+<div class="container bg-warning bg-opacity-25 p-3">
+  <h1 class="text-center"><%= title %> </h1>
+  <div class="row d-flex justify-content-center">
+    <form class="w-50" action="/users/login" method="post">
+      <div class="mb-3">
+         <label for="email" class="form-label">Email </label>
+         <input name="email" type="email" class="form-control" id="email" aria-describedby="emailHelp">
+       </div>
+       <div class="mb-3">
+         <label for="password" class="form-label">Password</label>
+         <input name="password" type="password" class="form-control" id="password">
+       </div>
+       <div class="mb-3 form-check">
+         <input name="conductor" type="checkbox" class="form-check-input" id="conductor">
+         <label class="form-check-label" for="conductor">
+             Conductor/a
+         </label>
+       </div>
+       <div class="mb-3 form-check">
+         <input name="cliente" type="checkbox" class="form-check-input" id="cliente">
+         <label class="form-check-label" for="cliente">Usuario</label>
+       </div>
+       <button type="submit" class="btn btn-primary bg-primary bg-opacity-50 text-black">Ingresar</button>
+   </form>
+  </div>
+</div>
+<%- include('./partials/footer.ejs')  %>

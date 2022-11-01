@@ -1,0 +1,25 @@
+[
+    {
+        "id": "142563344523",
+        "nombre": "Juan",
+        "apellido":"Mendoza",
+        "email": "juandoza@gmail.com",
+        "direccion": "Av. Libertador 50, B1056 Retiro, CABA",
+        "telefono": "011 4694-9605",
+        "servicios":[],
+        "activo":true,
+  "tipo_usuario":"conductor",
+        "password":"123456",
+        "forma_de_pago":["efectivo","debito","crédito"],
+        "cbu":"00700000152536524122",
+        "auto":{
+            "marca":"Chevrolet",
+            "modelo":"Orlando",
+            "patente":"PRX502",
+            "anio":2012,
+            "color":"Verde",
+            "cant_puertas":5
+        }
+    }
+ ]
+ 

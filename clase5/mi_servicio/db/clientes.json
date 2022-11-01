@@ -1,0 +1,16 @@
+[
+    {
+        "id": "134258663323",
+        "nombre": "Mariana",
+        "apellido":"Romero",
+        "email": "romari@gmail.com",
+        "direccion": "Av. Juan B justo 550, B2054 Palermo, CABA",
+        "telefono": "011 4394-3605",
+        "servicios":[],
+        "activo":true,
+        "tipo_usuario":"cliente",
+        "password":"125896",
+        "forma_de_pago":["efectivo","debito","crédito"]
+    }
+ ]
+ 

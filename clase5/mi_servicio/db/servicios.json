@@ -1,0 +1,13 @@
+[
+    {
+        "id":1425,
+        "id_cliente": "134258663323",
+        "id_conductor":"142563344523",
+        "servicio": "Encomienda",
+        "direccion_salida": "Av. Santa Fe 1550, B167 Recoleta, CABA",
+        "direccion_llegada": "Av. Ing Huergo 350, B165 Puerto Madero, CABA",
+        "monto":350,
+        "disponible":true
+    }
+ ]
+ 
